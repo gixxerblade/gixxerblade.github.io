@@ -20,13 +20,25 @@ body{
 .profilepic{
     border-radius: 50%;
     width: 200px;
+    box-shadow: 4px 4px #5f564d;
 }
 .page h1{
     font-size: 40px;
     letter-spacing: 2px;
+    text-shadow: 2px 2px #b9b9b9;
+}
+h3, h4{
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.employment li{
+    margin-bottom: 10px;
+    list-style: none;
 }
 .page h5{
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 2px;
     padding: 10px;
     margin: 10px;
@@ -36,22 +48,94 @@ p{
     padding: 10px;
     text-align: justify;
 }
-.ul{
-    margin: 0;
-    padding: 0;
-
+.extra p{
+    text-align: center;
 }
-li{
-    display: inline-block;
+.gallery-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+.gallery:hover{
+    border: 3px solid red;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.contact-container{
+   display: flex;    
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+}
+ul.contact{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+} 
+.contact-container h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.contact-container li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
     list-style: none;
     width: 100px;
     height: 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
 }
 .contact li a{
     color: white;
     font-size: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
 }
 .contact li a:hover{
     color: #b9b9b9;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: #f7dda4;
+}
+a:hover{
+    color: #96a3aa;
+}
+.vets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vets a{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.vets img{
+    width:50px;
 }
