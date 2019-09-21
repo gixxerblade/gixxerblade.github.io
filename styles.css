@@ -7,15 +7,24 @@ body{
     background: url("images/bg.jpg") repeat;
     background-size: cover;
 }
+ul{
+    list-style: none;
+}
 .page{
-    width: 800px;
+    width: 55%;
     background: rgb(0, 0, 0,.4);
     padding: 40px;
-    text-align: center;
     margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-top: 5%;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    padding: 0;
 }
 .profilepic{
     border-radius: 50%;
@@ -32,43 +41,28 @@ h3, h4{
     padding: 10px;
     letter-spacing: 2px;
 }
-
-.employment li{
-    margin-bottom: 10px;
-    list-style: none;
-}
 .page h5{
     font-size: 25px;
     letter-spacing: 2px;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 0;
 }
 p{
     margin: 10px;
     padding: 10px;
-    text-align: justify;
-}
-.extra p{
     text-align: center;
 }
 .gallery-container{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.gallery{
-    margin: 5px;
-    border: 1px solid black;
-    width: 170px;
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 30.4vh;
 }
 .gallery:hover{
-    border: 3px solid red;
+    border: 1px solid #e4e5e5;
 }
 .gallery img{
-    width: 100%;
-    height: auto;
+    max-width: 30vh;
+    height:30vh;
 }
 .contact-container{
    display: flex;    
@@ -78,45 +72,26 @@ p{
 }
 ul.contact{
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-flow: wrap row;
 } 
-.contact-container h5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
 .contact-container li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 10px;
     list-style: none;
     width: 100px;
     height: 100px;
-    flex-wrap: wrap;
-    flex-direction: row;
-
 }
 .contact li a{
     color: white;
     font-size: 60px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: row;
-
 }
 .contact li a:hover{
     color: #b9b9b9;
 }
 a:link{
-    color: white;
+    color: #e4e5e5;
 }
 a:visited{
     color: #f7dda4;
@@ -124,18 +99,10 @@ a:visited{
 a:hover{
     color: #96a3aa;
 }
-.vets {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.vets a{
-    display: flex;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 .vets img{
     width:100px;
+    text-decoration: none;
+}
+.vets a{
+    text-decoration: none;
 }
