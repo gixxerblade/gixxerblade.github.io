@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://kit.fontawesome.com/89e2f8287a.js"></script>
+    <script
+      src="https://kit.fontawesome.com/89e2f8287a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css" />
     <link
@@ -15,53 +18,58 @@
   </head>
   <body>
     <div class="page">
-      <div class="header">
+      <header class="header">
         <img src="images/profile.jpg" alt="" class="profilepic" />
         <h1>Stephen Clark</h1>
         <h5>Web Developer</h5>
-      </div>
-      <div class="intro">
+      </header>
+      <section class="intro">
         <h5>Introduction</h5>
-        <p class="intro">
+        <article class="intro">
           Hello, my name is Stephen Clark and I am learning front-end web
           development through a program named
           <a href="https://vetswhocode.io/" target="_blank">Vets Who Code</a>.
           <em>Vets Who Code</em> is a veteran-led 501/c program that trains
           veterans in web development. I created this website to showcase some
           of the skills I have learned so far.
-        </p>
-      </div>
-      <div class="resume">
-        <div class="employment">
-          <h5>Employment</h5>
-          <h5 class="usmc">Marine Corps - 1997-2017</h5>
-          <ul>Skills:
+        </article>
+      </section>
+      <section class="resume">
+        <h3>Resume</h3>
+        <section class="employment">
+          <h4>Employment</h4>
+          <h5 class="usmc">Marine Corps – 1997-2017</h5>
+          <h6>Skills:</h6>
+          <ul class="skills">
             <li>Quality Assurance</li>
             <li>Safety</li>
-            <li>Supervisor</li>
+            <li>Management</li>
             <li>Instructor</li>
-            <li>Jet Engine Mechanic</li>
+            <li>Troubleshooting</li>
+            <li>Customer Service</li>
+            <li>Technical Writing</li>
+            <li>Attention to Detail</li>
+            <li>Oral Communication</li>
           </ul>
-        </div>
-        <div class="extra">
-          <h4>Education</h4>
-          <ul>
-            <li>Excelsior College</li>
-            <li>B.S.Information Technology</li>
-            <li>Concentration Cybersecurity Technology</li>
-          </ul>
-          <h4>Professional Activities</h4>
-          <div class="acm">Association of Computing Machinery</div>
-          <h4>Continuing Education</h4>
-          <ul>
-            <li>Java Programming Masterclass for Software Developers</li>
-            <li>Vets Who Code Coding Bootcamp</li>
-          </ul>
-        </div>
-      </div>
-      <div class="aboutme-container">
+        </section>
+        <h4>Education</h4>
+        <ul class="ed">
+          <li>Excelsior College</li>
+          <li>B.S. Information Technology</li>
+        </ul>
+        <h4>Professional Activities</h4>
+        <ul class="pro">
+          <li>Association of Computing Machinery</li>
+        </ul>
+        <h4>Continuing Education</h4>
+        <ul class="cont">
+          <li>Java Programming Masterclass for Software Developers</li>
+          <li>Vets Who Code Coding Bootcamp</li>
+        </ul>
+      </section>
+      <section class="aboutme-container">
         <h5>About Me</h5>
-        <p class="aboutme">
+        <article class="aboutme">
           I am retired from the United States Marine Corps and live near Camp
           Lejeune, NC. I am a native of California but decided to make NC my
           permanent home after retiring. I am currently using my G.I. Bill to
@@ -78,25 +86,19 @@
           my garage, making pickles, or cycling through the countryside. I am
           married with no kids and have two dogs, four geese, five ducks, and
           eighteen hens.
-        </p>
-        <div class="gallery-container">
-          <div class="gallery">
-            <a target="_blank" href="images/ballphoto.jpg"
-              ><img src="images/ballphoto.jpg" alt=""
-            /></a>
-          </div>
-          <div class="gallery">
-            <a target="_blank" href="images/animals.JPG"
-              ><img src="images/animals.JPG" alt=""
-            /></a>
-          </div>
-          <div class="gallery">
-            <a target="_blank" href="images/couple2.jpg"
-              ><img src="images/couple2.jpg" alt=""
-            /></a>
-          </div>
+        </article>
+      </section>
+      <section class="gallery-container">
+        <div class="gallery">
+          <img src="images/ballphoto.jpg" alt="" />
         </div>
-      </div>
+        <div class="gallery">
+          <img src="images/animals.JPG" alt="" />
+        </div>
+        <div class="gallery">
+          <img src="images/couple2.jpg" alt="" />
+        </div>
+      </section>
       <div class="contact-container">
         <h5>Contact</h5>
         <ul class="contact">
@@ -130,7 +132,6 @@
           </li>
         </ul>
       </div>
-
       <div class="vets">
         <a href="https://vetswhocode.io/donate" target="_blank"
           ><img src="images/vetswhocode.gif" alt="Donate" /><br />Donate to Vets
