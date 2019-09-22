@@ -10,9 +10,6 @@ body{
     text-align: center;
     font-size: 2em;
 }
-div.intro{
-    display: none;
-}
 .employment{
     font-size: .75em;
     display: flex;
@@ -30,25 +27,12 @@ div.intro{
     align-items: center;
     text-align: center;
 }
-.extra>ul>li:nth-last-child(1){
-    display: none;
-}
 .extra h4{
     font-size: .85em;
     font-weight: 600;
 }
-.extra h4,
-.extra>ul{
-    display: none;
-}
 .acm{
     font-size: .75em;
-}
-.aboutme-container h5{
-    display: none;
-}
-.aboutme{
-    display:none;
 }
 
 

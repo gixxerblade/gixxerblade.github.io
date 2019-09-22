@@ -19,10 +19,82 @@ ul{
     flex-flow: column wrap;
     text-align: center;
     margin-top: 3%;
+    
+    border: red 1px solid; /* test */
+}
+.page *{
+    width: 75%;
+    margin: auto;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size:2vh;
-    padding: 0;
+}
+header{
+    border: red 1px solid; /* test */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+section.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border: red 1px solid; /* test */
+}
+article.intro{
+    text-align: justify;
+    width: 75%;
+}
+.resume{
+    width: 100%;
+    border: red 1px solid; /* test */
+}
+.skills{
+    border: red 1px solid; /* test */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-size: 1vh;
+}
+.skills li{
+    width: auto;
+    padding:1vh;
+    padding-top: 0;
+}
+.employment{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border: red 1px solid; /* test */
+    font-size: 3vh
+}
+.employment h6{
+    font-size: 2vh;
+}
+.employment h4{
+    font-size: 3vh;
+}
+.employment h5{
+    font-size: 1vh;
+}
+.aboutme-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border: red 1px solid; /* test */
+}
+.aboutme-container h5{
+    font-size: 2vh;
+}
+article.aboutme{
+    text-align: justify;
 }
 .profilepic{
     align-self: center;
@@ -36,6 +108,7 @@ ul{
     text-shadow: 2px 2px #b9b9b9;
 }
 h3, h4{
+    font-size: 3vh;
     margin: 10px;
     padding: 10px;
     letter-spacing: 2px;
@@ -53,21 +126,26 @@ p{
 }
 .gallery-container{
     display: flex;
-    justify-content: space-between;
-    height: 30.4vh;
+    justify-content: space-evenly;
+    width: 75%;
+    border: red 1px solid; /* test */
+
 }
 .gallery:hover{
-    border: 1px solid #e4e5e5;
+    transform: scale(1.5);
 }
 .gallery img{
-    max-width: 30vh;
-    height:30vh;
+    height: 30vh;
+    width: 30vh;
+    transition: transform .2s;
 }
 .contact-container{
    display: flex;    
    flex-direction: column;
    justify-content: center; 
    align-items: center;
+   width: 100%;
+   border: red 1px solid; /* test */
 }
 ul.contact{
     display: flex;
@@ -86,8 +164,9 @@ ul.contact{
     font-size: 60px;
     display: flex;
 }
+}
 .contact li a:hover{
-    color: #b9b9b9;
+    fill: #b9b9b9;
 }
 a:link{
     color: #e4e5e5;
@@ -99,7 +178,7 @@ a:hover{
     color: #96a3aa;
 }
 .vets img{
-    width:100px;
+    width:4em;
     text-decoration: none;
 }
 .vets a{
