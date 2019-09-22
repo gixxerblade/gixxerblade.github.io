@@ -6,28 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/89e2f8287a.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>Stephen Clark Capstone</title>
   </head>
   <body>
     <div class="page">
-      <img src="images/profile.jpg" alt="" class="profilepic" />
-      <h1>Stephen Clark</h1>
-      <h5>Web Developer</h5>
-      <h5>Introduction</h5>
-      <p class="intro">
-        Hello, my name is Stephen Clark and I am learning 
-        front-end web development through a program named
-        <a href="https://vetswhocode.io/" target="_blank">Vets Who Code</a>.
-        <em>Vets Who Code</em> is a veteran-led 501/c program that trains veterans in
-        web development. I created this website to showcase some of the skills I haved learned 
-        so far.
-      </p>
+      <div class="header">
+        <img src="images/profile.jpg" alt="" class="profilepic" />
+        <h1>Stephen Clark</h1>
+        <h5>Web Developer</h5>
+      </div>
+      <div class="intro">
+        <h5>Introduction</h5>
+        <p class="intro">
+          Hello, my name is Stephen Clark and I am learning front-end web
+          development through a program named
+          <a href="https://vetswhocode.io/" target="_blank">Vets Who Code</a>.
+          <em>Vets Who Code</em> is a veteran-led 501/c program that trains
+          veterans in web development. I created this website to showcase some
+          of the skills I have learned so far.
+        </p>
+      </div>
       <div class="resume">
         <div class="employment">
           <h5>Employment</h5>
-          <h4>United States Marine Corps 1997-2017</h4>
-          <ul>
+          <h5 class="usmc">Marine Corps - 1997-2017</h5>
+          <ul>Skills:
             <li>Quality Assurance</li>
             <li>Safety</li>
             <li>Supervisor</li>
@@ -43,7 +51,7 @@
             <li>Concentration Cybersecurity Technology</li>
           </ul>
           <h4>Professional Activities</h4>
-          <div>Association of Computing Machinery</div>
+          <div class="acm">Association of Computing Machinery</div>
           <h4>Continuing Education</h4>
           <ul>
             <li>Java Programming Masterclass for Software Developers</li>
@@ -74,15 +82,18 @@
         <div class="gallery-container">
           <div class="gallery">
             <a target="_blank" href="images/ballphoto.jpg"
-              ><img src="images/ballphoto.jpg" alt=""/></a>
+              ><img src="images/ballphoto.jpg" alt=""
+            /></a>
           </div>
           <div class="gallery">
             <a target="_blank" href="images/animals.JPG"
-              ><img src="images/animals.JPG" alt=""/></a>
+              ><img src="images/animals.JPG" alt=""
+            /></a>
           </div>
           <div class="gallery">
             <a target="_blank" href="images/couple2.jpg"
-              ><img src="images/couple2.jpg" alt=""/></a>
+              ><img src="images/couple2.jpg" alt=""
+            /></a>
           </div>
         </div>
       </div>
@@ -122,8 +133,8 @@
 
       <div class="vets">
         <a href="https://vetswhocode.io/donate" target="_blank"
-          ><img src="images/vetswhocode.gif" alt="Donate" /><br>Donate to Vets Who
-          Code</a
+          ><img src="images/vetswhocode.gif" alt="Donate" /><br />Donate to Vets
+          Who Code</a
         >
       </div>
     </div>
