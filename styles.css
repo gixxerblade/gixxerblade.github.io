@@ -1,186 +1,185 @@
 *{
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
-}
-body{
-    background: url("images/bg.jpg") repeat;
-    background-size: cover;
-}
-ul{
-    list-style: none;
-}
-.page{
-    width: 65%;
-    background: rgb(0, 0, 0,.4);
-    margin: auto;
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-    text-align: center;
-    margin-top: 3%;
-    
-    border: red 1px solid; /* test */
-}
-.page *{
-    width: 75%;
-    margin: auto;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size:2vh;
-}
-header{
-    border: red 1px solid; /* test */
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-section.intro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    border: red 1px solid; /* test */
-}
-article.intro{
-    text-align: justify;
-    width: 75%;
-}
-.resume{
-    width: 100%;
-    border: red 1px solid; /* test */
-}
-.skills{
-    border: red 1px solid; /* test */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    align-items: center;
-    width: 100%;
-    font-size: 1vh;
-}
-.skills li{
-    width: auto;
-    padding:1vh;
-    padding-top: 0;
-}
-.employment{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    border: red 1px solid; /* test */
-    font-size: 3vh
-}
-.employment h6{
-    font-size: 2vh;
-}
-.employment h4{
-    font-size: 3vh;
-}
-.employment h5{
-    font-size: 1vh;
-}
-.aboutme-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    border: red 1px solid; /* test */
-}
-.aboutme-container h5{
-    font-size: 2vh;
-}
-article.aboutme{
-    text-align: justify;
-}
-.profilepic{
-    align-self: center;
-    border-radius: 50%;
-    width: 200px;
-    box-shadow: 4px 4px #5f564d;
-}
-.page h1{
-    font-size: 40px;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px #b9b9b9;
-}
-h3, h4{
-    font-size: 3vh;
-    margin: 10px;
-    padding: 10px;
-    letter-spacing: 2px;
-}
-.page h5{
-    font-size: 25px;
-    letter-spacing: 2px;
-    padding: 5px;
+    padding: 0;
     margin: 0;
-}
-p{
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-.gallery-container{
-    display: flex;
-    justify-content: space-evenly;
-    width: 75%;
-    border: red 1px solid; /* test */
-
-}
-.gallery:hover{
-    transform: scale(1.5);
-}
-.gallery img{
-    height: 30vh;
-    width: 30vh;
-    transition: transform .2s;
-}
-.contact-container{
-   display: flex;    
-   flex-direction: column;
-   justify-content: center; 
-   align-items: center;
-   width: 100%;
-   border: red 1px solid; /* test */
-}
-ul.contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: wrap row;
-} 
-.contact-container li{
-    margin: 10px;
-    list-style: none;
-    width: 100px;
-    height: 100px;
-}
-.contact li a{
-    color: white;
-    font-size: 60px;
-    display: flex;
-}
-}
-.contact li a:hover{
-    fill: #b9b9b9;
-}
-a:link{
-    color: #e4e5e5;
-}
-a:visited{
-    color: #f7dda4;
-}
-a:hover{
-    color: #96a3aa;
-}
-.vets img{
-    width:4em;
-    text-decoration: none;
-}
-.vets a{
-    text-decoration: none;
-}
+    box-sizing: border-box;
+ }
+ body{
+     background: url("images/bg.jpg") repeat;
+     background-size: cover;
+     font-family: 'Poppins', sans-serif;
+     color: #fdfefd;
+     font-size: 1.25em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ ul{
+     list-style: none;
+ }
+ .page{
+     width: 50%;
+     background: rgb(0, 0, 0,.4);
+     margin: auto;
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     align-items: center;
+     margin-top: 3%;    
+     border: red 1px solid; /* test */
+ }
+ .profilepic{
+     width: 200px;
+     border-radius: 50%;
+     box-shadow: 5px 5px 15px 5px #424245;
+ }
+ h5.usmc{
+     font-size: 1.15em;
+ }
+ h5{
+     font-size: 1.5em;
+ }
+ h4{
+     font-size: 1.25em;
+ }
+ h6{
+     font-size: 1.10em;
+     align-self: center;
+ }
+ .contact,
+ .aboutme,
+ article.intro{
+     text-align: center;
+     width: 75%;
+ }
+ .employment,
+ .cont,
+ .ed,
+ .pro,
+ header,
+ .aboutme-container,
+ section.intro,
+ .resume{
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     border: red 1px solid; /* test */
+ }
+ .skills,
+ .contact-container,
+ .contact{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     width: 75%;
+     border: red 1px solid; /* test */
+     width:100%;
+ }
+ .skills li::before{
+     border: red 1px solid; /* test */
+     content: "\2713"
+ }
+ .gallery-container{
+     width:100%;
+     line-height: 10%;
+     display: flex;
+     justify-content: space-around;
+     flex-flow: row wrap;
+     border: red 1px solid; /* test */
+ }
+ .gallery img{
+     height: 25vh;
+     width: 25vh;
+     display: flex;
+ }
+ .contact-container li{
+     margin: 10px;
+     list-style: none;
+     width: 100px;
+     height: 100px;
+     font-size: 4em;
+ 
+ }
+ .contact li a{
+     color: white;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+ }
+ .contact li a:hover{
+     fill: #b9b9b9;
+ }
+ a:link{
+     color: #e4e5e5;
+ }
+ a:visited{
+     color: #f7dda4;
+ }
+ a:hover{
+     color: #96a3aa;
+ }
+ .vets{
+     border: white 1px solid; /* test */
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+ }
+ .vets img{
+     width: 4em;
+     margin:auto;
+     border: red 1px solid; /* test */
+ }
+ .vets a{
+     text-align: center; 
+     width: 75%;
+     text-decoration: none;
+     border: red 2px solid; /* test */
+ 
+ }
+ /* Mobile Styles */
+ @media only screen and (max-width: 400px) {
+     .page{
+         width: 100%;
+         background: rgb(0, 0, 0,.4);
+         border: red 1px solid; /* test */
+     }
+     .gallery-container{
+         width:100%;
+         line-height: 10%;
+         display: flex;
+         justify-content: space-around;
+         flex-flow: row wrap;
+         border: red 1px solid; /* test */
+     }
+     ul{
+         text-align: center;
+     }
+     ul.skills{
+         padding: 5px;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+     }
+     
+     article.aboutme{
+         width:100%;
+         text-align: justify;
+     }
+     .gallery img{
+         height: 25vh;
+         width: 25vh;
+         display: flex;
+         padding: 10px;
+     }
+   }
+   
+   /* Tablet Styles */
+   @media only screen and (min-width: 401px) and (max-width: 960px) {
+     .page{
+         width: 100%;
+     }
+   }
