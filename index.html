@@ -2,147 +2,122 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" async></script>
     <script
       src="https://kit.fontawesome.com/89e2f8287a.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <title>Stephen Clark Capstone</title>
+    <title>Stephen Clark</title>
   </head>
   <body>
-    <div class="page">
-      <header class="header">
-        <img src="images/profile.jpg" alt="" class="profilepic" />
-        <h1>Stephen Clark</h1>
-        <h5>Web Developer</h5>
-      </header>
-      <div class="container">
-        <section class="intro">
-          <h5>Introduction</h5>
-          <article class="intro">
-            Hello, I am learning front-end web development through a program
-            named
-            <a href="https://vetswhocode.io/" target="_blank">Vets Who Code</a>.
-            <em>Vets Who Code</em> is a veteran-led
-            <non-profit></non-profit> program that trains veterans in web
-            development. I created this website to showcase some of the skills I
-            have learned so far.
-          </article>
-        </section>
-        <section class="resume">
-          <h3>Resume</h3>
-          <section class="employment">
-            <h4>Employment</h4>
-            <h5 class="usmc">Marine Corps – 1997-2017</h5>
-            <h6>Skills:</h6>
-            <ul class="skills">
-              <li>Quality Assurance</li>
-              <li>Safety</li>
-              <li>Management</li>
-              <li>Instructor</li>
-              <li>Troubleshooting</li>
-              <li>Customer Service</li>
-              <li>Technical Writing</li>
-              <li>Attention to Detail</li>
-              <li>Oral Communication</li>
-            </ul>
-          </section>
-          <h4>Education</h4>
-          <ul class="ed">
-            <li>Excelsior College</li>
-            <li>B.S. Information Technology</li>
-          </ul>
-          <h4>Professional Activities</h4>
-          <ul class="pro">
-            <li>Association of Computing Machinery</li>
-          </ul>
-          <h4>Continuing Education</h4>
-          <ul class="cont">
-            <li>Java Programming Masterclass for Software Developers</li>
-            <li>Vets Who Code Coding Bootcamp</li>
-          </ul>
-        </section>
-        <section class="aboutme-container">
-          <h5>About Me</h5>
-          <article class="aboutme">
-            I am retired from the United States Marine Corps and live near Camp
-            Lejeune, NC. I am a native of California but decided to make NC my
-            permanent home after retiring. I am currently using my G.I. Bill to
-            complete a Bachelor of Science in Information Technology with a
-            focus on Cybersecurity at Excelsior College. Since I have retired I
-            have taken on some new challenges. I am hoping that my education and
-            the Vets Who Code program lead me to a new career in the IT field
-            and will make me better rounded in the STEM field. My hobbies
-            include cycling, gardening, playing Xbox, watching movies, and
-            traveling. I have created a small business where I make gourmet
-            pickles named
-            <a href="http://www.angrypickles.com" target="_blank"
-              >Angry Pickles</a
-            >. I have been told time and time again that I make pickles to die
-            for. In my off-time, I can usually be found either messing around in
-            my garage, making pickles, or cycling through the countryside. I am
-            married with no kids and have two dogs, four geese, five ducks, and
-            eighteen hens.
-          </article>
-        </section>
-      </div>
-      <section class="gallery-container">
-        <div class="gallery">
-          <img src="images/ballphoto.jpg" alt="" />
-        </div>
-        <div class="gallery">
-          <img src="images/animals.JPG" alt="" />
-        </div>
-        <div class="gallery">
-          <img src="images/couple2.jpg" alt="" />
-        </div>
+    <header>
+      <h1 class="name">Stephen Clark</h1>
+      <h2>Front End Web Developer</h2>
+    </header>
+    <nav id="navbar">
+      <a href="#intro" class="link1">Introduction</a>
+      <a href="#resume" class="link2">Resume</a>
+      <a href="#aboutme" class="link3">About Me</a>
+      <a href="#contact" class="link4">Contact</a>
+    </nav>
+    <div class="container">
+      <section class="intro" id="intro">
+        <h3 class="intro">Introduction</h3>
+        <p class="intro">
+          Hello, I am front-end web developer that likes to build webpages. I
+          learned my skills through a program named Vets Who Code, a veteran-led
+          program that trains veterans in web development.
+        </p>
       </section>
-      <div class="contact-container">
-        <h5>Contact</h5>
-        <ul class="contact">
-          <li>
-            <a href="https://www.facebook.com/USMarinez" target="_blank">
-              <i class="fab fa-facebook-square"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/gixxerblade" target="_blank">
-              <i class="fab fa-twitter-square"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/stephen-clark-5319406/"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://github.com/gixxerblade" target="_blank">
-              <i class="fab fa-github-square"></i
-            ></a>
-          </li>
-          <li>
-            <a href="mailto:sdclarkie@gmail.com" target="_blank">
-              <i class="fas fa-envelope-square"></i
-            ></a>
-          </li>
+      <section class="resume" id="resume">
+        <h3 class="employment">Employment</h3>
+        <p class="usmc1">
+          20 year veteran of the U.S. Marine Corps where I learned valuable
+          skills like&#8230;
+        </p>
+        <ul class="skills">
+          <li id="one">Leadership</li>
+          <li id="two">Management</li>
+          <li id="three">Customer Service</li>
+          <li id="four">Troubleshooting</li>
+          <li id="five">Oral Communication</li>
+          <li id="six">Problem Solving</li>
+          <li id="seven">Quality Assurance</li>
+          <li id="eight">Technical Writing</li>
         </ul>
-      </div>
-      <div class="vets">
-        <a href="https://vetswhocode.io/donate" target="_blank"
-          ><img src="images/vetswhocode.gif" alt="Donate" /><br /><span
-            >Donate to Vets Who Code</span
-          ></a
-        >
-      </div>
+        <h3 class="education">Education</h3>
+        <ul class="ed">
+          <li>
+            2019: Excelsior College - Bachelor Science Information Technology
+          </li>
+          <ul>
+            <li>Minor Cyber Security Information</li>
+          </ul>
+          <li>2019: Vets Who Code Web Developer Boot Camp</li>
+          <ul class="bootcamp">
+            <li>HTML5/CSS3</li>
+            <li>Javascript</li>
+            <li>Computer Science</li>
+            <li>JAMstack, React, Gatsby, and GraphQL</li>
+            <li>web accessibility</li>
+            <li class="ux">UX/UI Design Principles</li>
+          </ul>
+          <li></li>
+        </ul>
+      </section>
+      <article class="aboutme" id="aboutme">
+        <h3 class="aboutme">About Me</h3>
+        <p class="aboutme">
+          I am retired from the United States Marine Corps and live near Camp
+          Lejeune, NC. Since I have finished serving, I have taken on some new
+          challenges. I am hoping that my education and the Vets Who Code
+          program lead me to a new career in the technology field and will make
+          me better rounded in the STEM. My hobbies include cycling, gardening,
+          watching movies, and traveling. I have created a small business where
+          I make gourmet pickles named Angry Pickles. I have been told time and
+          time again that I make pickles to die for. In my off-time, I can
+          usually be found either messing around in my garage, making pickles,
+          or cycling through the countryside.
+        </p>
+      </article>
     </div>
+    <section class="contact" id="contact">
+      <h3 class="contact">Contact</h3>
+      <ul class="contacts">
+        <li class="email">
+          <a href="mailto:sdclarkie@gmail.com"
+            ><i class="fas fa-envelope-square"></i
+          ></a>
+        </li>
+        <li class="twitter">
+          <a href="http://www.twitter.com/gixxerblade"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </li>
+        <li class="linkedin">
+          <a href="https://www.linkedin.com/in/stephen-clark-5319406/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="github">
+          <a href="https://github.com/gixxerblade"
+            ><i class="fab fa-github-square"></i
+          ></a>
+        </li>
+        <li class="devto">
+          <a href="https://dev.to/gixxerblade"><i class="fab fa-dev"></i></a>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
