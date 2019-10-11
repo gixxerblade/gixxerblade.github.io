@@ -1,4 +1,8 @@
-//Stick Navbar
+/* //Stick Navbar
+window.addEventListener('DOMContentLoaded', (event) => {
+  console.log('DOM fully loaded and parsed');
+});
+
 window.onscroll = function() {
     stickyNavbar()
   }
@@ -13,3 +17,4 @@ function stickyNavbar() {
   }
   
 
+ */
