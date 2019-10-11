@@ -173,6 +173,8 @@ h3 {
 }
 h3.intro {
   display: none;
+  position: absolute;
+  opacity: 0;
 }
 p.intro {
   text-align: center;
@@ -303,20 +305,32 @@ ul.contacts {
   header {
     width: 100%;
   }
-  nav {
+  h1{
+    font-size: 1em;
+  }
+  #navbar{
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 50%);
     justify-content: center;
-    align-items: center;
-    font-size: 1px;
+    align-items: flex-end;
+    text-align: center;
     width: 100%;
     position: sticky;
     bottom: 0;
+    overflow: hidden;
   }
-  .sticky {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  #navbar a{
+    font-size: 1em;;
+  }
+  .intro p, p.aboutme,h3,h2,#resume{
+    font-size: 1em;
+  }
+  .resume{
+    padding: 20px;
+  }
+  ul.bootcamp{
+    font-size: 1em;
   }
   .contact {
     width: 100%;
@@ -325,12 +339,35 @@ ul.contacts {
   .contact ul {
     justify-items: center;
   }
+  .contact li a{
+    font-size: 75px;
+  }
+  .aboutme{
+    padding-top: 30px;
+    font-size: 15px;
+    height: 100%;
+  }
+  .aboutme h3{
+    font-size:20px;
+  }
   .container {
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    align-items: flex-start;
   }
   .homeArrow{
-    right:0;
-    bottom:0;
+    right:1%;
+    top:94%;
+    opacity: 1;
+  }
+  .homeArrow a{
+    font-size: 2em;
+  }
+  .home{
+    display: none;
   }
 }
 
