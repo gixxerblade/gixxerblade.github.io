@@ -136,9 +136,10 @@ nav a:focus::after {
   align-self: flex-end;
   position: sticky;
   overflow: hidden;
-  top:85%;
-  right:25%;
+  top: 86%;
+  right:23%;
   display: block;
+  opacity: .5;
 }
 .homeArrow .home{
   text-align: center;
@@ -290,6 +291,7 @@ ul.contacts {
 .contact a:hover {
   color: #596557;
   transition: .3s ease;
+  opacity: .7;
 }
 
 /* Mobile Styles */
@@ -325,6 +327,10 @@ ul.contacts {
   }
   .container {
     width: 100%;
+  }
+  .homeArrow{
+    right:0;
+    bottom:0;
   }
 }
 
