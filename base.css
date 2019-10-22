@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+
+header {
+  position: relative;
+  width: 75%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background: url(images/self.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+header h1,
+header h2 {
+  color: #fff;
+  text-shadow: black 4px 3px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 10vh;
+}
+
+header h2 {
+  font-size: 6vh;
+}
+nav {
+  overflow: hidden;
+  grid-area: nav;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  background: linear-gradient(270deg, #87d0bd, #d9c29b);
+  position: sticky;
+  top: 0;
+}
+
+section.intro {
+  grid-area: intro;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+h3.intro {
+  display: none;
+  position: absolute;
+  opacity: 0;
+}
+article {
+  grid-area: aboutme;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: justify;
+  height: 100vh;
+}

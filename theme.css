@@ -1,0 +1,22 @@
+.bg-color{
+    background: linear-gradient(270deg, #87d0bd, #d9c29b);
+    background-size: 400% 400%;
+    animation: bgcolor 30s ease infinite;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 800;  
+}
+@keyframes bgcolor {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

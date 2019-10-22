@@ -8,10 +8,14 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="module.css">
+    <link rel="stylesheet" href="theme.css">
     <script src="main.js" async></script>
     <script
       src="https://kit.fontawesome.com/89e2f8287a.js"
-      crossorigin="anonymous"
+      crossorigin="anonymous" 
     ></script>
     <link
       href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
@@ -19,22 +23,22 @@
     />
     <title>Stephen Clark</title>
   </head>
-  <body>
+  <body class="bg-color">
     <header id="home">
       <h1 class="name">Stephen Clark</h1>
       <h2>Front End Web Developer</h2>
     </header>
-    <nav id="navbar">
+    <nav id="navbar" class="navbar">
       <a href="#intro" class="link1">Introduction</a>
       <a href="#resume" class="link2">Resume</a>
       <a href="#aboutme" class="link3">About Me</a>
       <a href="#contact" class="link4">Contact</a>
     </nav>
-    <div class="homeArrow"> 
+    <div class="homeArrow" id="homeArrow"> 
       <a href="#home"><i class="fas fa-arrow-up"></i></a>
       <div class="home">Home</div>
     </div>
-    <div class="container">
+    <div class="container" id="container">
       <section class="intro" id="intro">
         <p class="intro">
           Hello, I am front-end web developer that likes to build webpages. I
