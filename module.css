@@ -9,10 +9,12 @@
   transform: translateY(-5%);
   color: #596557;
   transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
 }
 .homeArrow a:hover {
   color: #596557;
   transition: 0.3s ease;
+  -webkit-transition: .3s ease;
 }
 .navbar a {
     text-decoration: none;
@@ -22,24 +24,28 @@
     font-size: 3vh;
     text-transform: uppercase;
     transition: 0.3s;
+    -webkit-transition: .3s;
   }
 .navbar a::before,
 .navbar a::after {
     display: inline-block;
     opacity: 0;
     transition: transform 0.3s, opacity 0.2s;
+    -webkit-transition: transform 0.3s, opacity 0.2s;
   }
   
 .navbar a::before {
     margin-right: 10px;
     content: "[";
     transform: translateX(20px);
+    -webkit-transform: translateX(20px);
   }
   
 .navbar a::after {
     margin-left: 10px;
     content: "]";
     transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
   }
   
 .navbar a:hover::before,
@@ -48,6 +54,7 @@
 .navbar a:focus::after {
     opacity: 1;
     transform: translateX(0px);
+    -webkit-transform: translateX(0px);
   }
 .skills {
     width: 100%;
@@ -130,6 +137,7 @@ ul.contacts {
 .contact a:hover {
     color: #596557;
     transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
     opacity: 0.7;
   }
   

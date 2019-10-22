@@ -1,11 +1,30 @@
+#home{
+  background: url(images/self.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#home h1, #home h2{
+  color: #fff;
+  text-shadow: black 4px 3px 0px;
+}
 .bg-color{
     background: linear-gradient(270deg, #87d0bd, #d9c29b);
     background-size: 400% 400%;
     animation: bgcolor 30s ease infinite;
+    -webkit-animation: bgcolor 30s ease infinite;
     font-family: "Poppins", sans-serif;
     color: white;
     font-weight: 800;  
 }
+#navbar{
+  background: linear-gradient(270deg, #87d0bd, #d9c29b);
+  background-size: 100% 100%;
+  animation: bgcolor 10s ease infinite;
+  -webkit-animation: bgcolor 30s ease infinite;
+  border-radius: 10px;
+}
+
 @keyframes bgcolor {
     0% {
       background-position: 0% 50%;
