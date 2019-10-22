@@ -110,9 +110,9 @@
     align-items: flex-start;
   }
   .mobile-Arrow {
-    right: 1%;
-    top: 94%;
-    opacity: 1;
+    right: 1% !important;
+    top: 90% !important;
+    opacity: 1 !important;
   }
   .homeArrow a {
     font-size: 2em;
