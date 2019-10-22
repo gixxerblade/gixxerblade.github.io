@@ -109,7 +109,7 @@
     flex-flow: column wrap;
     align-items: flex-start;
   }
-  .homeArrow {
+  .mobile-Arrow {
     right: 1%;
     top: 94%;
     opacity: 1;
@@ -117,7 +117,7 @@
   .homeArrow a {
     font-size: 2em;
   }
-  .home {
+/*   .home {
     display: none;
   }
-}
+ */}
