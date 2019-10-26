@@ -1,21 +1,3 @@
-.homeArrow .home {
-  text-align: center;
-}
-.homeArrow a {
-  color: white;
-  font-size: 4em;
-}
-.homeArrow:hover {
-  transform: translateY(-5%);
-  color: #596557;
-  transition: 0.3s ease;
-  -webkit-transition: 0.3s ease;
-}
-.homeArrow a:hover {
-  color: #596557;
-  transition: 0.3s ease;
-  -webkit-transition: .3s ease;
-}
 .navbar a {
     text-decoration: none;
     background-color: transparent;
@@ -56,23 +38,6 @@
     transform: translateX(0px);
     -webkit-transform: translateX(0px);
   }
-.skills {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding-bottom: 20px;
-  }
-.skills li::before,
-.skills li::after {
-    content: "–";
-  }
-  
-.skills li {
-    background-color: transparent;
-    text-transform: uppercase;
-  }
 .education {
     padding-top: 20px;
   }
@@ -87,12 +52,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 1.2rem;
-  }
-.aboutme h3 {
-    font-size: 2rem;
-  }
-.aboutme p {
-    font-size: 1.25em;
   }
   
 .email {

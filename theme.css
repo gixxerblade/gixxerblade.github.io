@@ -25,6 +25,11 @@
   border-radius: 10px;
 }
 
+#ap:hover,
+#vwc-link:hover{
+  color: #fff;
+  transition: .16s ease-in-out;
+}
 @keyframes bgcolor {
     0% {
       background-position: 0% 50%;
