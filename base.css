@@ -47,6 +47,7 @@ header h2 {
 section#intro {
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
   height: 500px;
 }
 
