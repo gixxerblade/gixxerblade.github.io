@@ -33,6 +33,7 @@
   text-align: justify;
 }
 #intro.intro {
+  align-self: flex-start;
   text-align: center;
   font-size: 1.1em;
   padding: 5px;
