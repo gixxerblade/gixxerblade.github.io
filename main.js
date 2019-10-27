@@ -1,20 +1,28 @@
-/* //Stick Navbar
-window.addEventListener('DOMContentLoaded', (event) => {
-  console.log('DOM fully loaded and parsed');
+let resume = document.getElementById("resume");
+let skills = document.getElementById("skills");
+let aboutme = document.getElementById("aboutme");
+let contact = document.getElementById("contact");
+let resumeLink = document.getElementById("resumeLink");
+let skillLink = document.getElementById("skillsLink");
+let aboutmeLink = document.getElementById("aboutmeLink");
+let contactLink = document.getElementById("contactLink");
+
+resumeLink.addEventListener("click", () => {
+  let top = resume.offsetTop;
+  window.scrollTo(0, top);
 });
 
-window.onscroll = function() {
-    stickyNavbar()
-  }
-var navbar = document.getElementById('navbar');
-var sticky = navbar.offsetTop;
-function stickyNavbar() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add('sticky');
-    } else {
-      navbar.classList.remove('sticky');
-    }
-  }
-  
+skillLink.addEventListener("click", () => {
+  let top = skills.offsetTop;
+  window.scrollTo(0, top);
+});
 
- */
+aboutmeLink.addEventListener("click", () => {
+  let top = aboutme.offsetTop;
+  window.scrollTo(0, top);
+});
+
+contactLink.addEventListener("click", () => {
+   let top = contact.offsetTop;
+  window.scrollTo(0, top);
+});
