@@ -1,0 +1,102 @@
+.navbar a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 3vh;
+    text-transform: uppercase;
+    transition: 0.3s;
+    -webkit-transition: .3s;
+  }
+.navbar a::before,
+.navbar a::after {
+    display: inline-block;
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.2s;
+    -webkit-transition: transform 0.3s, opacity 0.2s;
+  }
+  
+.navbar a::before {
+    margin-right: 10px;
+    content: "[";
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+  }
+  
+.navbar a::after {
+    margin-left: 10px;
+    content: "]";
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+  }
+  
+.navbar a:hover::before,
+.navbar a:hover::after,
+.navbar a:focus::before,
+.navbar a:focus::after {
+    opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+  }
+.education {
+    padding-top: 20px;
+  }
+.ed {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+  }
+  
+.bootcamp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.2rem;
+  }
+  
+.email {
+    grid-area: email;
+  }
+.twitter {
+    grid-area: twitter;
+  }
+.linkedin {
+    grid-area: linkedin;
+  }
+.github {
+    grid-area: github;
+  }
+.devto {
+    grid-area: devto;
+  }
+  
+ul.contacts {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      ". email . twitter ."
+      ". github . linkedin ."
+      ".  . devto . .";
+  
+    justify-items: center;
+    align-items: center;
+  }
+.contact h3 {
+    display: none;
+  }
+  
+.contact li a {
+    padding: 1px;
+    margin-top: 2px;
+    color: white;
+    font-size: 8rem;
+    right: 25%;
+  }
+  
+.contact a:hover {
+    color: #596557;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    opacity: 0.7;
+  }
+  

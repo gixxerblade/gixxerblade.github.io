@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+ul {
+  list-style: none;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+}
+header h1,
+header h2 {
+  width: 100%;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header h2 {
+  font-size: 2em;
+}
+
+section#intro {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 500px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+h3.intro {
+  display: none;
+  position: absolute;
+  opacity: 0;
+}
+article.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align:center;
+  height: 90vh;
+}
