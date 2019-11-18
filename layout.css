@@ -107,7 +107,7 @@ ul.bootcamp {
   top: 87%;
   opacity: 1;
   font-size: 3em;
-  align-self: flex-end;
+  /* align-self: flex-end; */
   position: sticky;
   overflow: visible;
 }
@@ -199,14 +199,15 @@ ul.bootcamp {
   }
 
   #navbar {
-    overflow: hidden;
-    display: flex;
+/*     overflow: hidden;
+ */    display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     position: sticky;
     top: 0;
+    transform: translateY(-140px);
   }
 
   p.intro,
