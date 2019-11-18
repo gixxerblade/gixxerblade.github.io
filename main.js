@@ -2,10 +2,17 @@ let resume = document.getElementById("resume");
 let skills = document.getElementById("skills");
 let aboutme = document.getElementById("aboutme");
 let contact = document.getElementById("contact");
+let home = document.getElementById('home');
 let resumeLink = document.getElementById("resumeLink");
 let skillLink = document.getElementById("skillsLink");
 let aboutmeLink = document.getElementById("aboutmeLink");
 let contactLink = document.getElementById("contactLink");
+let homeArrow = document.getElementById('homeArrow');
+
+homeArrow.addEventListener('click', () =>{
+  let top = home.offsetTop;
+  window.scrollTo(0, top);
+})
 
 resumeLink.addEventListener("click", () => {
   let top = resume.offsetTop;
