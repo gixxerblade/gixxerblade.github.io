@@ -1,35 +1,9 @@
-let resume = document.getElementById("resume");
-let skills = document.getElementById("skills");
-let aboutme = document.getElementById("aboutme");
-let contact = document.getElementById("contact");
-let home = document.getElementById('home');
-let resumeLink = document.getElementById("resumeLink");
-let skillLink = document.getElementById("skillsLink");
-let aboutmeLink = document.getElementById("aboutmeLink");
-let contactLink = document.getElementById("contactLink");
-let homeArrow = document.getElementById('homeArrow');
+let links = document.querySelectorAll(".link");
+let targets = document.querySelectorAll(".target");
 
-homeArrow.addEventListener('click', () =>{
-  let top = home.offsetTop;
-  window.scrollTo(0, top);
-})
-
-resumeLink.addEventListener("click", () => {
-  let top = resume.offsetTop;
-  window.scrollTo(0, top);
-});
-
-skillLink.addEventListener("click", () => {
-  let top = skills.offsetTop;
-  window.scrollTo(0, top);
-});
-
-aboutmeLink.addEventListener("click", () => {
-  let top = aboutme.offsetTop;
-  window.scrollTo(0, top);
-});
-
-contactLink.addEventListener("click", () => {
-   let top = contact.offsetTop;
-  window.scrollTo(0, top);
-});
+for (let i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", () => {
+    let top = targets[i].offsetTop;
+    window.scrollTo(0, top);
+  });
+}
