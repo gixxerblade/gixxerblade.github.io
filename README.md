@@ -8,7 +8,7 @@
 
 ## Background of technical experience & math:
 
-B.S. Information Technology 2019
+#### B.S. Information Technology 2019
 
 ### Technical classes:
 
